@@ -1,0 +1,46 @@
+.applicants {
+  border-radius: 0.3rem;
+  border: 2px solid #3758f9;
+  background-color: #3758f9;
+  color: #fff;
+  font-weight: 550;
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.applicants:hover {
+  box-shadow: 3px 3px 0px #e1e1e1;
+  transform: translateY(-3px) translateX(-3px);
+}
+
+.listHeader {
+  margin-top: 2rem !important;
+}
+
+.searchbar {
+  background-color: #fff;
+  position: sticky;
+  top: 4rem;
+  margin: 1rem 15px 3rem 15px;
+  display: flex;
+  align-items: center;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  box-shadow: 0px 1px 1px -2px rgb(0 0 0 / 20%),
+    0px 1px 2px 0px rgb(0 0 0 / 14%), 0px 1px 4px 0px rgb(0 0 0 / 12%);
+}
+
+.searcIcon {
+  color: #3758f9;
+}
+
+.searchInput {
+  width: 100%;
+  margin: 0 1rem 0 0;
+  font-size: 1rem;
+  color: #848484;
+  outline: none;
+  border: none;
+}

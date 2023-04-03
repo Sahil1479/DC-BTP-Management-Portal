@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+django = "==3.2.16"
+requests = "*"
+python-decouple = "*"
+pillow = "*"
+django-import-export = "*"
+django-ckeditor = "*"
+django-cors-headers = "*"
+django-filter = "*"
+cryptography="==3.1.1"
+pyjwt="*"
+flake8 = "*"
+djangorestframework = "==3.14.0"
+djangorestframework-simplejwt="*"
+django_extensions="*"
+
+[requires]
+python_version = "3.9"

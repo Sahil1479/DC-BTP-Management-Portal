@@ -1,0 +1,127 @@
+.projectApply {
+  border-radius: 0.3rem;
+  border: 2px solid #3758f9;
+  background-color: transparent;
+  color: #3758f9;
+  font-weight: 550;
+  padding: 0.5rem 1rem;
+  margin: 0 1rem 0 0;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.projectApply:hover {
+  border-color: transparent;
+  background-color: #3758f9;
+  color: #fff;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #383838;
+}
+
+.faculty {
+  font-size: 1rem;
+  font-weight: 550;
+  color: #848484;
+}
+
+.applicationType {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif !important;
+  color: #383838 !important;
+  font-size: 1rem !important;
+  font-weight: 550 !important;
+}
+
+.dropDown {
+  color: #848484 !important;
+  font-size: 1rem !important;
+  box-shadow: none !important;
+}
+
+.dropDown:focus,
+.courseCode:focus,
+.resumeLink:focus,
+.notesTextArea:focus {
+  outline: none;
+  border: 1px solid #ced4da;
+}
+
+.resume,
+.notes,
+.courseCodes {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif !important;
+  color: #383838 !important;
+  font-size: 1rem !important;
+  font-weight: 550 !important;
+  margin-top: 1rem;
+}
+
+.resumeLink,
+.notesTextArea,
+.courseCode {
+  color: #848484 !important;
+  font-size: 1rem !important;
+  box-shadow: none !important;
+}
+
+.submit {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.projectActions {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 1rem 0;
+}
+
+.projectActions .updateButton {
+  margin: 0;
+  border: 2px solid #3758f9;
+  color: #3758f9;
+  border-radius: 0.3rem;
+  background-color: transparent;
+  outline: none !important;
+  font-weight: 550;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.projectActions .updateButton:hover {
+  background-color: #3758f9;
+  border-color: transparent;
+  color: #fff;
+}
+
+.projectActions .updateButton:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+  color: #fff;
+  background-color: #3758f9;
+}
+
+.projectActions .deleteButton {
+  margin: 0 0 0 0;
+  border: 2px solid #ed5e68;
+  color: #ed5e68;
+  border-radius: 0.3rem;
+  background-color: transparent;
+  outline: none !important;
+  font-weight: 550;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.projectActions .deleteButton:hover {
+  background-color: #ed5e68;
+  border-color: transparent;
+  color: #fff;
+}

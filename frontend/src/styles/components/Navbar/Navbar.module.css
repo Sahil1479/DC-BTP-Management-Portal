@@ -1,0 +1,10 @@
+.navOption {
+  color: white !important;
+  text-decoration: none;
+  border: 2px solid blue;
+}
+
+.navOption:hover {
+  background-color: #fff !important;
+  color: black !important;
+}

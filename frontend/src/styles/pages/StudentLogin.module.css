@@ -1,0 +1,129 @@
+.heading {
+  text-align: center;
+  font-size: 1.4rem;
+  margin-top: 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media all and (min-width: 1200px) {
+  .Login {
+    margin: 10% 33%;
+    border-radius: 0.6rem;
+    padding: 2rem;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+  }
+  .Loginform {
+    margin: 3% auto;
+    padding: 10px;
+    width: 80%;
+    font-size: 1rem;
+    border-radius: 0.6rem;
+    border: 2px solid #b4b4b4;
+  }
+  .Loginform:focus {
+    outline: none;
+    border: 2px solid #7c7c7c;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 1200px) {
+  .Login {
+    margin: 20% 20%;
+    border-radius: 0.6rem;
+    padding: 2rem;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .Loginform {
+    margin: 3% auto;
+    padding: 10px;
+    width: 80%;
+    font-size: 1rem;
+    border-radius: 0.6rem;
+    border: 2px solid #b4b4b4;
+  }
+  .Loginform:focus {
+    outline: none;
+    border: 2px solid #7c7c7c;
+  }
+}
+
+@media (max-width: 700px) {
+  .Login {
+    margin: 40% 3%;
+    border-radius: 0.6rem;
+    padding: 5%;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .Loginform {
+    margin: 3% auto;
+    padding: 10px;
+    width: 80%;
+    font-size: 1rem;
+    border-radius: 0.6rem;
+    border: 2px solid #b4b4b4;
+  }
+  .Loginform:focus {
+    outline: none;
+    border: 2px solid #7c7c7c;
+  }
+}
+
+.loginButton {
+  margin: 1rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 100px;
+  outline: none;
+  padding: 0.5rem 1.5rem;
+  border: 2px solid #012970;
+  color: #fff;
+  background-color: #012970;
+  cursor: pointer;
+}
+
+.loginButton:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.clearButton {
+  margin: 1rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 100px;
+  outline: none;
+  padding: 0.5rem 1.5rem;
+  border: 2px solid #012970;
+  color: #012970;
+  cursor: pointer;
+  background-color: #fff;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.clearButton:hover {
+  background-color: #012970;
+  color: #fff;
+}
+
+.error {
+  position: absolute;
+  font-size: medium;
+  color: orangered;
+}
+
+.Gbutton {
+  height: 20px;
+  margin: 0 15px;
+  width: auto;
+}

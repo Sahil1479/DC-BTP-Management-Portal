@@ -1,0 +1,95 @@
+.projectDetails {
+  border-radius: 0.3rem;
+  border: 2px solid #3758f9;
+  background-color: transparent;
+  color: #3758f9;
+  font-weight: 550;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.projectDetails:hover {
+  border-color: transparent;
+  background-color: #3758f9;
+  color: #fff;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #383838;
+}
+
+.faculty {
+  font-size: 1rem;
+  font-weight: 550;
+  color: #848484;
+}
+
+.categories {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #383838;
+  margin-bottom: 0.4rem;
+}
+
+.description,
+.deliverables,
+.skills,
+.courses {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #383838;
+}
+
+.skills {
+  margin-bottom: 0.4rem;
+}
+
+.courses {
+  margin: 1rem 0 0.4rem 0;
+}
+
+.descriptionContent,
+.deliverablesContent {
+  font-size: 1rem;
+  color: #383838;
+  padding: 0.6rem 0 1rem 0;
+}
+
+.skillsChips,
+.coursesChips,
+.categoryChips {
+  flex-wrap: wrap;
+}
+
+.skillsChips .skill,
+.coursesChips .course,
+.categoryChips .category {
+  border-radius: 2rem;
+  border: 2px solid #3758f9;
+  background-color: transparent;
+  color: #3758f9;
+  font-weight: 550;
+  padding: 0.5rem 1rem;
+  margin: 0.2rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.skill:hover,
+.course:hover,
+.category:hover {
+  border-color: transparent;
+  background-color: #3758f9;
+  color: #fff;
+}
+
+.skillsChips,
+.coursesChips,
+.categoryChips {
+  margin-bottom: 1rem;
+}

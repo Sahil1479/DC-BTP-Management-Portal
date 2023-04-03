@@ -1,0 +1,85 @@
+.project {
+  padding: 1.25rem 1.5rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.projectTitle,
+.facultyName {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0.2rem 0 0 0;
+  color: #383838;
+}
+
+.faculty {
+  font-size: 1rem;
+  font-weight: 550;
+  color: #848484;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+
+.faculty:hover {
+  color: #3758f9;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.header .email {
+  color: #3758f9;
+}
+
+.facultyDepartment {
+  font-size: 1rem;
+  font-weight: 550;
+  color: #848484;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+
+.description {
+  font-size: 1rem;
+  color: #383838;
+  padding: 0 0 1rem 0;
+}
+
+.projectActions {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 2rem 0 0 0;
+}
+
+.projectActions .deleteButton {
+  margin: 0 1rem 0 0;
+  border: 2px solid #ed5e68;
+  color: #ed5e68;
+  border-radius: 0.3rem;
+  background-color: transparent;
+  outline: none !important;
+  font-weight: 550;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.projectActions .deleteButton:hover {
+  background-color: #ed5e68;
+  border-color: transparent;
+  color: #fff;
+}

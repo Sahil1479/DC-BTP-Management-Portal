@@ -1,0 +1,31 @@
+.footer {
+  background: #3758f9;
+  padding: 1.5rem 0;
+  width: 100%;
+  color: #fff;
+  margin-top: 8rem;
+  display: block;
+}
+
+.maintainers,
+.copyright {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+.maintainers > a:hover,
+.maintainers > a:visited,
+.maintainers > a:link,
+.maintainers > a:active {
+  text-decoration: none;
+  color: #fff !important;
+}
+
+.copyright > a:hover,
+.copyright > a:visited,
+.copyright > a:link,
+.copyright > a:active {
+  text-decoration: none;
+  color: #fff !important;
+}

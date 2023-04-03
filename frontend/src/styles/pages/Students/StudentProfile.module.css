@@ -1,0 +1,78 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  margin-top: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.studentName,
+.studentRollNumber,
+.studentEmail,
+.studentDepartment,
+.studentYear,
+.studentCGPA,
+.studentSkills,
+.studentCourses {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif !important;
+  color: #383838 !important;
+  font-size: 1.2rem !important;
+  font-weight: 550 !important;
+  margin-left: 0.4rem;
+}
+
+.studentSkillsForm,
+.studentCoursesForm {
+  color: #848484 !important;
+  font-size: 1rem !important;
+  box-shadow: none !important;
+}
+
+.studentSkillsForm:focus,
+.studentCoursesForm:focus {
+  outline: none;
+  border: 1px solid #ced4da;
+}
+
+.submit {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.projectActions > button {
+  border-radius: 0.3rem;
+  border: 2px solid #3758f9;
+  background-color: transparent;
+  outline: none;
+  color: #3758f9;
+  font-weight: 550;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.projectActions > button:hover {
+  border-color: transparent;
+  background-color: #3758f9;
+  color: #fff;
+}
+
+.projectActions {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 2rem 0 0 0;
+}
+
+.projectActions .submitButton {
+  margin: 0 1rem 0 0;
+}
+
+.projectActions .submitButton:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+  background-color: #3758f9;
+  color: #fff;
+}

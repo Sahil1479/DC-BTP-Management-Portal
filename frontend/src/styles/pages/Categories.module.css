@@ -1,0 +1,22 @@
+.category {
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+  color: #383838;
+  font-size: 1.2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.category:hover {
+  color: #3758f9;
+}
+
+.description {
+  font-size: '1rem';
+  color: 'black';
+}
+
+.description > p {
+  margin-top: 0;
+}

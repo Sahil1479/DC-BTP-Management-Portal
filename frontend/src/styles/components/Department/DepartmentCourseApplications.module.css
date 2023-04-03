@@ -1,0 +1,26 @@
+.editButton > button {
+    color: #848484;
+}
+
+.applicants {
+    border-radius: 0.3rem;
+    border: 2px solid #3758f9;
+    background-color: #3758f9;
+    color: #fff;
+    font-weight: 550;
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin: 5px;
+}
+  
+.applicants:hover {
+    box-shadow: 0px 3px 0px #e1e1e1;
+    transform: translateY(-3px) translateX(0px);
+}
+
+.MuiDataGrid-root .MuiDataGrid-cell {
+    white-space: normal !important;
+    word-wrap: break-word !important;
+}

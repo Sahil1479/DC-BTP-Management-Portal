@@ -1,0 +1,88 @@
+.error {
+  position: relative;
+  height: 100vh;
+}
+
+.notFound {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  max-width: 460px;
+  width: 100%;
+  text-align: center;
+}
+
+.brokenLink {
+  position: relative;
+  width: 11rem;
+  height: 11rem;
+  margin: 0 auto 4rem;
+}
+
+.brokenLink > div:first-child {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #ffa200;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border: 5px dashed #000;
+  border-radius: 0.5rem;
+}
+
+.brokenLink > h1 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 5rem;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  left: 50%;
+  text-align: center;
+  height: 3rem;
+  line-height: 3rem;
+}
+
+.notFound > h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.notFound > p {
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 0 1rem;
+}
+
+.homePage {
+  margin-top: 1rem;
+  height: 100px;
+}
+
+.homeButton {
+  margin: 1rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 100px;
+  outline: none;
+  padding: 0.5rem 1.5rem;
+  border: 2px solid #012970;
+  color: #012970;
+  cursor: pointer;
+  background-color: #fff;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.homeButton:hover {
+  background-color: #012970;
+  color: #fff;
+}

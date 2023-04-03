@@ -1,0 +1,80 @@
+.editButton > button {
+  color: #848484;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #383838;
+}
+
+.projectTitle {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif !important;
+  color: #383838 !important;
+  font-size: 1rem !important;
+  font-weight: 550 !important;
+}
+
+.description,
+.deliverables,
+.status,
+.category,
+.skills,
+.courses {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif !important;
+  color: #383838 !important;
+  font-size: 1rem !important;
+  font-weight: 550 !important;
+  margin-top: 1rem;
+}
+
+.dropDown {
+  color: #848484 !important;
+  font-size: 1rem !important;
+  box-shadow: none !important;
+}
+
+.inputBox {
+  color: #848484 !important;
+  font-size: 1rem !important;
+  box-shadow: none !important;
+}
+
+.dropDown:focus,
+.inputBox:focus {
+  outline: none;
+  border: 1px solid #ced4da;
+}
+
+.projectActions {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 1.2rem 0 1rem 0;
+}
+
+.projectActions .submitButton {
+  margin: 1rem 0 0 0;
+  border: 2px solid #3758f9;
+  color: #3758f9;
+  border-radius: 0.3rem;
+  background-color: transparent;
+  outline: none !important;
+  font-weight: 550;
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.projectActions .submitButton:hover {
+  border-color: transparent;
+  background-color: #3758f9;
+  color: #fff;
+}
+
+.projectActions .submitButton:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+  color: #fff;
+  background-color: #3758f9;
+}

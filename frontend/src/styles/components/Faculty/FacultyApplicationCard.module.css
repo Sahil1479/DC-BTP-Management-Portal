@@ -1,0 +1,207 @@
+.studentApplications {
+  padding: 1.5rem 1.25rem;
+  box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%),
+    0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%) !important;
+  border-radius: 4px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.applicationActions {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.applicationActions > a,
+.applicationActions > a:hover,
+.applicationActions > a:visited,
+.applicationActions > a:link,
+.applicationActions > a:active {
+  color: #848484 !important;
+}
+
+.studentName {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+  color: #383838;
+}
+
+.department {
+  font-size: 1rem;
+  font-weight: 550;
+  color: #848484;
+}
+
+.basicProfileDetails {
+  margin-top: 0rem;
+  font-size: 1rem;
+  font-weight: 550;
+  color: #383838;
+}
+
+.expandCard {
+  margin-top: 2rem;
+  font-size: 1rem;
+  font-weight: 550;
+  color: #383838;
+  padding: 0 !important;
+}
+
+.cardContent {
+  padding: 0 !important;
+  margin-top: 2rem;
+  overflow: auto;
+  height: 300px;
+}
+
+.commentsContent {
+  padding: 0 !important;
+  margin-top: 2rem;
+  overflow: auto;
+  height: 300px;
+}
+
+.courseCode,
+.applicationType,
+.skills,
+.courses,
+.resume,
+.notes,
+.comments {
+  font-size: 1.1rem;
+  font-weight: 650;
+  color: #383838;
+}
+
+.comments {
+  margin-top: 1rem;
+}
+
+.courseCodeContent,
+.applicationTypeContent,
+.resumeContent,
+.notesContent {
+  font-size: 1rem;
+  color: #383838;
+  padding: 0.4rem 0 0.6rem 0;
+}
+
+.resumeContent {
+  padding: 0.4rem 0 0.6rem 0;
+}
+
+.resumeContent > a:hover,
+.resumeContent > a:visited,
+.resumeContent > a:link,
+.resumeContent > a:active {
+  text-decoration: none;
+  color: #207de9 !important;
+}
+
+.skills {
+  margin-bottom: 0.4rem;
+}
+
+.courses {
+  margin: 1rem 0 0.4rem 0;
+}
+
+.skillsChips,
+.coursesChips {
+  flex-wrap: wrap;
+}
+
+.skillsChips .skill,
+.coursesChips .course {
+  border-radius: 2rem;
+  border: 2px solid #3758f9;
+  background-color: transparent;
+  color: #3758f9;
+  font-weight: 550;
+  padding: 0.5rem 1rem;
+  margin: 0.2rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.skill:hover,
+.course:hover {
+  border-color: transparent;
+  background-color: #3758f9;
+  color: #fff;
+}
+
+.commentTextArea {
+  color: #848484 !important;
+  font-size: 1rem !important;
+  box-shadow: none !important;
+  margin-top: 1rem;
+}
+
+.projectActions {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 1.2rem 0 0 0;
+}
+
+.projectActions > button {
+  border-radius: 0.3rem;
+  border: 2px solid #3758f9;
+  background-color: transparent;
+  outline: none;
+  color: #3758f9;
+  font-weight: 550;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.projectActions > button:hover {
+  border-color: transparent;
+  background-color: #3758f9;
+  color: #fff;
+}
+
+.projectActions .submitButton {
+  margin: 0 1rem 0 0;
+}
+
+.projectActions .submitButton:disabled {
+  background-color: #3758f9;
+  color: #fff;
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.commentsContent .commentHeader {
+  margin-top: 0.8rem;
+}
+
+.commentsContent .commentHeader .commentUser {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #383838;
+}
+
+.commentsContent .commentHeader .commentTimestamp {
+  font-size: 0.8rem;
+  font-weight: 450;
+  color: #848484;
+  margin-left: 1rem;
+}
+
+.commentsContent .comment {
+  font-size: 1rem;
+  color: #383838;
+}

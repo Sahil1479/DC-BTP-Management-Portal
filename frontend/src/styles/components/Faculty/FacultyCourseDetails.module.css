@@ -1,0 +1,65 @@
+.courseCard {
+  margin: 10px !important;
+  background: #eeeeee;
+  text-align: center;
+  padding: 10px;
+  max-width: 250px !important;
+  min-width: 200px !important;
+  min-height: 150px !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 2px solid #a3a3a3;
+  border-radius: 20px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.courseCard:hover {
+  box-shadow: 0px 5px 5px 2px #d7d0fb;
+  cursor: pointer;
+}
+
+.course {
+  padding: 1.25rem 1.5rem;
+  width: 100%;
+}
+
+.courseCode {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0.2rem 0 0 0;
+  color: #383838;
+}
+
+.courseName {
+  font-size: 1rem;
+  font-weight: 550;
+  color: #848484;
+}
+
+.footer {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.applicants {
+  border-radius: 0.3rem;
+  border: 2px solid #3758f9;
+  background-color: #3758f9;
+  color: #fff;
+  font-weight: 550;
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.applicants:hover {
+  box-shadow: 3px 3px 0px #e1e1e1;
+  transform: translateY(-3px) translateX(-3px);
+}

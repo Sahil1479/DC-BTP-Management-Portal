@@ -1,0 +1,77 @@
+.commentsContent {
+  padding: 0 !important;
+  overflow: auto;
+  height: 200px;
+}
+
+.comments {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  font-weight: 650;
+  color: #383838;
+}
+
+.commentTextArea {
+  color: #848484 !important;
+  font-size: 1rem !important;
+  box-shadow: none !important;
+  margin-top: 2rem;
+}
+
+.projectActions {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 1.2rem 0 1.2rem 0;
+}
+
+.projectActions > button {
+  border-radius: 0.3rem;
+  border: 2px solid #3758f9;
+  background-color: transparent;
+  outline: none;
+  color: #3758f9;
+  font-weight: 550;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.projectActions > button:hover {
+  border-color: transparent;
+  background-color: #3758f9;
+  color: #fff;
+}
+
+.projectActions .submitButton {
+  margin: 0 1rem 0 0;
+}
+
+.projectActions .submitButton:disabled {
+  background-color: #3758f9;
+  color: #fff;
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.commentsContent .commentHeader {
+  margin-top: 0.8rem;
+}
+
+.commentsContent .commentHeader .commentUser {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #383838;
+}
+
+.commentsContent .commentHeader .commentTimestamp {
+  font-size: 0.8rem;
+  font-weight: 450;
+  color: #848484;
+  margin-left: 1rem;
+}
+
+.commentsContent .comment {
+  font-size: 1rem;
+  color: #383838;
+}
